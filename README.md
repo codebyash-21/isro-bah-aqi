@@ -9,6 +9,9 @@ linked to crop/forest-fire activity.
 
 🔗 **Live interactive dashboard:** https://isro-bah-aqi.netlify.app/
 
+![Predicted Surface AQI over India](aqi_map_2019-11-08.png)
+*Predicted surface AQI (2019-11-08) — pollution concentrated over the Indo-Gangetic Plain.*
+
 ---
 
 ## The problem
@@ -36,6 +39,12 @@ and CPCB surface measurements, then predicts surface AQI **anywhere** in India.
 - AQI maps correctly concentrate pollution over the **Indo-Gangetic Plain**.
 - Fire→HCHO link confirmed three ways: **1-day lag peak**, location over **Punjab/Haryana**,
   and **~49% higher HCHO** in fire cells vs no-fire cells.
+
+![Fire to HCHO lag](fire_hcho_lag.png)
+*The fire→formaldehyde correlation peaks at a 1-day lag — matching real atmospheric chemistry.*
+
+![Fire to HCHO map](fire_hcho_map_clean.png)
+*Where burning drives formaldehyde — concentrated over the Punjab–Haryana stubble-burning belt.*
 
 ## Data sources
 | Source | Variables | Role |
@@ -68,6 +77,9 @@ src/               aqi.py — CPCB National AQI calculator
 - 🗺️ National surface-AQI maps
 - 🔥 HCHO hotspot detection with fire + wind transport
 - 🎞️ Seasonal AQI time-lapse animation
+
+![AQI time-lapse](aqi_timelapse.gif)
+*Watch surface AQI build over the Indo-Gangetic Plain as the burning season peaks, then ease.*
 - 🌐 Interactive web dashboard (date slider, layer toggles, CPCB health advisories)
 
 ## Future work
