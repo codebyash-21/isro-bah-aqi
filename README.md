@@ -90,3 +90,7 @@ src/               aqi.py — CPCB National AQI calculator
 A scalable, **monitor-independent** national air-quality tool built entirely on existing
 open satellite data — deployable on Bhuvan/MOSDAC at near-zero marginal cost, supporting
 **NCAP** targets and **SDG 11.6**.
+
+## License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
